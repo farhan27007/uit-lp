@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+	.set-pad-5-xs{
+		padding-left: 3rem!important;
+		padding-left: 3rem!important;
+	}
+	.navbar-light{
+		background-color: #fff !important;
+		padding: 7px 15px;
+	}
+	.navbar-brand img {
+		height: 47px !important;	
+	}
+	.navbar-brand span {
+		color: #15b020;
+		font-size: 13.5px;
+	}
+	.navbar-nav {
+		padding-top: 11px;
+		padding-bottom: 10px;
+	}
+	.navbar-nav > li > a{
+		margin-left: 5px;
+		color: #1a1a2e !important;
+		margin-bottom: 7px;
+		font-size: 14.5px;
+	}
+	.navbar-nav > li > a:hover {
+		color: #15b020 !important;
+	}
+	.p-4-xs {
+		padding: 1.5rem;
+		padding-bottom: 0 !important;
+	}
+	.pd-3-xs {
+		padding: 1rem !important;
+	}
+	.title-slide-lp {
+		font-size: 31px;
+	}
+	#myCarousel {
+		background-position-x: 611px !important;
+		background-position-y: -84px !important;
+	}
+	#myCarousel .carousel-item {
+		min-height: 815px;
+	}
+	#myCarousel p {
+		font-size: 14.5px;
+	}
+	#myCarousel .carousel-item a {
+		font-size: 13.5px;
+		padding: 13px 32px;
+	}
+	.no-mt-0 {
+		margin-top: 0 !important;
+	}
+	.xs-mt-20 {
+		margin-top: 20px;
+	}
+	.img-logo-footer {
+		height: 110px;
+	}
+	.name-footer {
+		font-size: 16px;
+	}
+}
+@media (max-width: 600px) {
+	#myCarousel .carousel-item {
+		min-height: 705px;
+	}
+}

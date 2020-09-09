@@ -1,0 +1,171 @@
+	<div class="container-fluid slide-testi">
+		<div class="col-md-12">
+			
+			<h2 class="text-center title-features mt-4">Testimonial</h2>
+			<p class="text-center mb-4">
+				<img src="assets/images/border-divider.svg" class="img-fluid" alt="">
+			</p>
+			
+
+			<div class="slider responsive-1">
+
+				<!-- loop untuk testimonial --> 
+				<div class="backup-testimonial-card">
+					<div class="testimonial-card">
+						<p class="icon-lets-join">
+							<i class="fas fa-quote-left"></i>
+						</p>
+						<p class="content-testimonial">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. tincidunt id.
+						</p>
+						<p class="icon-lets-join cs-lets-join">
+							<i class="fas fa-quote-right"></i>
+						</p>
+					</div>
+					<div class="testi-person">
+						<img src="assets/images/img-slide-1.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="testi-person-detail">
+						<h4 class="person-name">John Doe</h4>
+						<p class="card-content-features font-weight-bold mt-1">
+							CEO Company
+						</p>
+					</div>
+				</div>	
+				<!-- loop untuk testimonial -->
+
+				<!-- loop untuk testimonial --> 
+				<div class="backup-testimonial-card">
+					<div class="testimonial-card">
+						<p class="icon-lets-join">
+							<i class="fas fa-quote-left"></i>
+						</p>
+						<p class="content-testimonial">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. tincidunt id.
+						</p>
+						<p class="icon-lets-join cs-lets-join">
+							<i class="fas fa-quote-right"></i>
+						</p>
+					</div>
+					<div class="testi-person">
+						<img src="assets/images/img-slide-1.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="testi-person-detail">
+						<h4 class="person-name">John Doe</h4>
+						<p class="card-content-features font-weight-bold mt-1">
+							CEO Company
+						</p>
+					</div>
+				</div>	
+				<!-- loop untuk testimonial -->
+
+				<!-- loop untuk testimonial --> 
+				<div class="backup-testimonial-card">
+					<div class="testimonial-card">
+						<p class="icon-lets-join">
+							<i class="fas fa-quote-left"></i>
+						</p>
+						<p class="content-testimonial">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. tincidunt id.
+						</p>
+						<p class="icon-lets-join cs-lets-join">
+							<i class="fas fa-quote-right"></i>
+						</p>
+					</div>
+					<div class="testi-person">
+						<img src="assets/images/img-slide-1.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="testi-person-detail">
+						<h4 class="person-name">John Doe</h4>
+						<p class="card-content-features font-weight-bold mt-1">
+							CEO Company
+						</p>
+					</div>
+				</div>	
+				<!-- loop untuk testimonial -->
+
+				<!-- loop untuk testimonial --> 
+				<div class="backup-testimonial-card">
+					<div class="testimonial-card">
+						<p class="icon-lets-join">
+							<i class="fas fa-quote-left"></i>
+						</p>
+						<p class="content-testimonial">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. tincidunt id.
+						</p>
+						<p class="icon-lets-join cs-lets-join">
+							<i class="fas fa-quote-right"></i>
+						</p>
+					</div>
+					<div class="testi-person">
+						<img src="assets/images/img-slide-1.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="testi-person-detail">
+						<h4 class="person-name">John Doe</h4>
+						<p class="card-content-features font-weight-bold mt-1">
+							CEO Company
+						</p>
+					</div>
+				</div>	
+				<!-- loop untuk testimonial -->
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			$('.responsive-1').slick({
+        // dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: $('.prev-1'),
+        nextArrow: $('.next-1'),
+        responsive: [{
+        	breakpoint: 1024,
+        	settings: {
+        		slidesToShow: 2,
+        		slidesToScroll: 1,
+                // centerMode: true,
+
+            }
+
+        }, {
+        	breakpoint: 800,
+        	settings: {
+        		slidesToShow: 2,
+        		slidesToScroll: 2,
+        		dots: true,
+        		infinite: true,
+
+        	}
+
+
+        }, {
+        	breakpoint: 600,
+        	settings: {
+        		slidesToShow: 1,
+        		slidesToScroll: 2,
+        		dots: true,
+        		infinite: true,
+
+        	}
+        }, {
+        	breakpoint: 480,
+        	settings: {
+        		slidesToShow: 1,
+        		slidesToScroll: 1,
+        		dots: true,
+        		infinite: true,
+        		autoplay: true,
+        		autoplaySpeed: 2000,
+        	}
+        }]
+    });
+
+		});
+	</script>
