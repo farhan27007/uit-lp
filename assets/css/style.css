@@ -610,4 +610,61 @@ textarea {
 .breadcrumb-item+.breadcrumb-item::before {
 	color: #fff;
 }
+.cr-form-ss-list {
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border:none;
+}
+.lh--135 {
+  line-height: 1.35;
+}
+.nd-link-style:hover,.nd-link-style:focus,.nd-link-style:active {
+  color: #15b020;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.head-card {
+  border-radius: 10px;
+  padding: 23px 28px;
+  margin-bottom: 0;
+  background-color: #F1F3F5;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: pop-med;
+  letter-spacing: 0.5px;
+}
+.head-card:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  float: right;
+  transition: all 0.5s;
+}
+.head-card:hover, .head-card:active{
+  background-color: #15b020;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.head-card:focus {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #fff;
+  background-color: #15b020;
+  transition: all 0.2s ease-in-out;
+}
+.form-ss-list-content {
+  line-height: 1.85;
+  border-top: none !important;
+  background-color: #fff;
+  padding: 20px 28px;
+  border: 1.5px solid #ABABAB;
+  font-size: 14.8px;
+  letter-spacing: 0.2px;
+  border-bottom-right-radius: 10px;
+  font-family: mont-regular;
+  font-weight: 600;
+  border-bottom-left-radius: 10px;
+}
 /* halaman profile,spmi,spme */
