@@ -572,4 +572,37 @@ textarea {
 	font-size:13.5px;
 	font-family:pop-med;	
 }
- /* footer */
+/* footer */
+
+/* halaman profile,spmi,spme */
+.mt--90 {
+  margin-top:-90px;
+}
+.jumbotron {
+  border-radius: 0;
+  background-color: #15b020;
+  padding-top: 113px;
+  padding-bottom: 155px;
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+.white-text {
+  color: #fff !important;
+}
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 12px;
+}
+.breadcrumb-item a {
+  color: #fff;
+  font-family: pop-med;
+}
+.breadcrumb-item a:hover, .breadcrumb-item a:active, .breadcrumb-item a:focus {
+  text-decoration: none;
+  color: #065446;
+  transition: all 0.2s ease-in-out;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
+/* halaman profile,spmi,spme */
