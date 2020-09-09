@@ -1,4 +1,4 @@
-/* nav */
+nav */
 
 
 @font-face {
@@ -411,6 +411,21 @@
 }
 /* gallery section */
 
+/* nama auditor */
+.image-auditor-profile {
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	padding: 3px;
+	margin-top: 20px;
+	object-fit: cover;
+}
+.card-auditor {
+	height: 300px;
+	border-radius: 8px;
+	border: 1.6px solid #ddd;
+}
+/* nama auditor */
 
 /* slide-testimonial */
 .slide-testi {
@@ -667,4 +682,4 @@ textarea {
   font-weight: 600;
   border-bottom-left-radius: 10px;
 }
-/* halaman profile,spmi,spme */
+/* halaman profile,spmi,spme

@@ -51,6 +51,9 @@
 		font-size: 13.5px;
 		padding: 13px 32px;
 	}
+	.card-auditor {
+		height: auto;
+	}	
 	.no-mt-0 {
 		margin-top: 0 !important;
 	}
